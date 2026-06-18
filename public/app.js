@@ -875,7 +875,7 @@ function renderSearchResults(results) {
     sessionList.innerHTML = `
       <div class="empty-state">
         <span class="empty-icon">🔍</span>
-        <p>No sessions matched "<strong>${escapeHtml(query)}</strong>".</p>
+        <p>${query ? `No sessions matched "<strong>${escapeHtml(query)}</strong>".` : "No sessions found."}</p>
         <p class="empty-state-hint">Try using broader search terms or clearing filters.</p>
       </div>`;
     return;
