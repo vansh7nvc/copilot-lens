@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "A local dashboard to visualize and analyze your GitHub Copilot CLI sessions",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "main": "dist/server.js",
   "bin": {
